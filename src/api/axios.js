@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api', // apunta al backend de Laravel
+    baseURL: 'https://api-decameron-hotel.onrender.com:8000/api', // apunta al backend de Laravel
     headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json'
